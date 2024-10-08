@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS-HW-11</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="search-form">
+        <label>
+          <input
+            type="text"
+            name="text-request"
+            class="text-request"
+            placeholder="Search images..."
+          />
+        </label>
+        <button type="submit" class="btn">Search</button>
+      </form>
+      <div class="loader hidden">
+        <!-- <span>Loading...</span> -->
+      </div>
+      <ul class="gallery"></ul>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
